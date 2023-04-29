@@ -25,7 +25,7 @@
     <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="#" rel="tooltip" title="Bukittinggi Creative Week Festival" data-placement="bottom" target="_blank">
+                <a class="navbar-brand" href="#" onclick="scrollToHome()" rel="tooltip" title="Bukittinggi Creative Week Festival" data-placement="bottom">
                     BCWF 2023
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,27 +37,27 @@
             <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToHome()">
                             <p>Home</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToAbout()">
                             <p>About</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToEvent()">
                             <p>Event</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToSponsorship()">
                             <p>Sponsorship</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToKontak()">
                             <p>Kontak</p>
                         </a>
                     </li>
@@ -114,10 +114,38 @@
             nowuiKit.initSliders();
         });
 
-        function scrollToDownload() {
-            if ($('.section-download').length != 0) {
+        function scrollToHome() {
+            if ($('.section-home').length != 0) {
                 $("html, body").animate({
-                    scrollTop: $('.section-download').offset().top
+                    scrollTop: $('.section-home').offset().top
+                }, 1000);
+            }
+        }
+        function scrollToAbout() {
+            if ($('.section-about').length != 0) {
+                $("html, body").animate({
+                    scrollTop: $('.section-about').offset().top
+                }, 1000);
+            }
+        }
+        function scrollToEvent() {
+            if ($('.section-event').length != 0) {
+                $("html, body").animate({
+                    scrollTop: $('.section-event').offset().top
+                }, 1000);
+            }
+        }
+        function scrollToSponsorship() {
+            if ($('.section-sponsorship').length != 0) {
+                $("html, body").animate({
+                    scrollTop: $('.section-sponsorship').offset().top
+                }, 1000);
+            }
+        }
+        function scrollToKontak() {
+            if ($('.section-kontak').length != 0) {
+                $("html, body").animate({
+                    scrollTop: $('.section-kontak').offset().top
                 }, 1000);
             }
         }
