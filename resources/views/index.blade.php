@@ -16,12 +16,12 @@
         </div>
     </div>
 </div>
-<div class="section section-about" id="#about-section" data-background-color="black">
+<div class="section section-about" id="#about-section">
     <div class="container">
         <div class="row justify-content-md-center">
             <div class="text-center col-md-12 col-lg-8">
                 <h3 class="title">About</h3>
-                <h5 class="description">lore</h5>
+                <h5 class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sunt unde quis odit. Nam libero aut placeat ratione sed quae at dolore, perferendis quibusdam reprehenderit beatae doloribus dolorem earum cum.</h5>
             </div>
             <div class="text-center col-md-12 col-lg-8">
                 <a href="https://www.creative-tim.com/product/now-ui-kit" class="btn btn-primary btn-lg btn-round" role="button">
@@ -92,7 +92,7 @@
         </div>
     </div>
 </div>
-<div class="section section-sponsorship" id="#sponsorship-section" data-background-color="black">
+<div class="section section-sponsorship" id="#sponsorship-section">
     <div class="container">
         <div class="row justify-content-md-center">
             <div class="text-center col-md-12 col-lg-8">

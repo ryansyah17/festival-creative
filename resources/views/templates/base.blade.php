@@ -18,7 +18,7 @@
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="./assets/demo/demo.css" rel="stylesheet" />
+    <!-- <link href="./assets/demo/demo.css" rel="stylesheet" /> -->
 </head>
 
 <body class="index-page sidebar-collapse">
@@ -121,6 +121,7 @@
                 }, 1000);
             }
         }
+
         function scrollToAbout() {
             if ($('.section-about').length != 0) {
                 $("html, body").animate({
@@ -128,6 +129,7 @@
                 }, 1000);
             }
         }
+
         function scrollToEvent() {
             if ($('.section-event').length != 0) {
                 $("html, body").animate({
@@ -135,6 +137,7 @@
                 }, 1000);
             }
         }
+
         function scrollToSponsorship() {
             if ($('.section-sponsorship').length != 0) {
                 $("html, body").animate({
@@ -142,6 +145,7 @@
                 }, 1000);
             }
         }
+
         function scrollToKontak() {
             if ($('.section-kontak').length != 0) {
                 $("html, body").animate({
