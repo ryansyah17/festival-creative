@@ -62,6 +62,7 @@
       </div>
     </div>
     <div class="cards">
+    
       <div class="card card1">
           <div class="section-containers">
               <img src="assets/img/header.jpg" alt="las vegas" class="images">
