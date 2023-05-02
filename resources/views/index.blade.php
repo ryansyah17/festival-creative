@@ -11,7 +11,7 @@
                 <h3>- Coffee Society -</h3>
             </div>
             <h6 class="category category-absolute">Designed by
-                Someone People.
+                Effort Projects
             </h6>
         </div>
     </div>
@@ -55,79 +55,105 @@
     </div>
 </div>
 <div class="section section-event" id="#event-section">
-    <div class="section-container">
-      <h1 class="section-title">Event</h1> 
-      <div class="section-voltage-button">
-        <button onclick="window.location.href='/detail_event'">Detail</button>
-      </div>
-    </div>
-    <div class="cards">
-    
-      <div class="card card1">
-          <div class="section-containers">
-              <img src="assets/img/header.jpg" alt="las vegas" class="images">
-          </div>
-          <div class="details">
-              <h3>TalkShow</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-          </div>
-      </div>
-      <div class="card card2">
-          <div class="section-containers">
-              <img src="assets/img/header.jpg" alt="New York" class="images">
-          </div>
-          <div class="details">
-              <h3>Creative Workshop Program</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-          </div>
-      </div>
-      <div class="card card3">
-          <div class="section-containers">
-              <img src="assets/img/header.jpg" alt="Singapore" class="images">
-          </div>
-          <div class="details">
-              <h3>Local Discussion</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-          </div>
-      </div>
-      <div class="card card3">
-        <div class="section-containers">
-            <img src="assets/img/header.jpg" alt="Singapore" class="images">
-        </div>
-        <div class="details">
-            <h3>Pameran Seni</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-        </div>
-      </div>
-      <div class="card card3">
-        <div class="section-containers">
-            <img src="assets/img/header.jpg" alt="Singapore" class="images">
-        </div>
-        <div class="details">
-            <h3>Seni Pertunjukan</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-        </div>
-      </div>
-      <div class="card card3">
-        <div class="section-containers">
-            <img src="assets/img/header.jpg" alt="Singapore" class="images">
-        </div>
-         <div class="details">
-            <h3>Live Music</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-        </div>
-      </div>
-      <div class="card card3">
-        <div class="section-containers">
-            <img src="assets/img/header.jpg" alt="Singapore" class="images">
-        </div>
-          <div class="details">
-            <h3>Funding for Artists</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="event-container">
+
+<h3 class="event-title"> Daftar Event </h3>
+
+<div class="daftar-event">
+
+   <div class="event" data-name="p-1">
+      <img src="assets/images/bcwf2023.png" alt="">
+      <h3>TalkShow</h3>
+   </div>
+
+   <div class="event" data-name="p-2">
+      <img src="assets/images/bcwf2023.png" alt="">
+      <h3>Creative WorkShop Program</h3>
+   </div>
+
+   <div class="event" data-name="p-3">
+      <img src="assets/images/bcwf2023.png" alt="">
+      <h3>Local Discussion</h3>
+   </div>
+
+   <div class="event" data-name="p-4">
+      <img src="assets/images/bcwf2023.png" alt="">
+      <h3>Pameran</h3>
+   </div>
+
+   <div class="event" data-name="p-5">
+      <img src="assets/images/bcwf2023.png" alt="">
+      <h3>Pertunjukan</h3>
+
+   </div>
+
+   <div class="event" data-name="p-6">
+      <img src="assets/images/bcwf2023.png" alt="">
+      <h3>Live Music</h3>
+   </div>
+
+   <div class="event" data-name="p-7">
+      <img src="assets/images/bcwf2023.png" alt="">
+      <h3>Funding For Artist</h3>
+   </div>
+
+</div>
+
+</div>
+
+<div class="products-preview">
+
+<div class="preview" data-target="p-1">
+   <i class="fas fa-times"></i>
+   <img src="assets/images/bcwf2023.png" alt="">
+   <h3>Talshow</h3>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+</div>
+
+<div class="preview" data-target="p-2">
+   <i class="fas fa-times"></i>
+   <img src="assets/images/bcwf2023.png" alt="">
+   <h3>Creative WorkShop Program</h3>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+</div>
+
+<div class="preview" data-target="p-3">
+   <i class="fas fa-times"></i>
+   <img src="assets/images/bcwf2023.png" alt="">
+   <h3>Local Discussion</h3>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+</div>
+
+<div class="preview" data-target="p-4">
+   <i class="fas fa-times"></i>
+   <img src="assets/images/bcwf2023.png" alt="">
+   <h3>Pameran</h3>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+</div>
+
+<div class="preview" data-target="p-5">
+   <i class="fas fa-times"></i>
+   <img src="assets/images/bcwf2023.png" alt="">
+   <h3>Seni Pertunjukan</h3>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+</div>
+
+<div class="preview" data-target="p-6">
+   <i class="fas fa-times"></i>
+   <img src="assets/images/bcwf2023.png" alt="">
+   <h3>Live Music</h3>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+</div>
+
+<div class="preview" data-target="p-7">
+   <i class="fas fa-times"></i>
+   <img src="assets/images/bcwf2023.png" alt="">
+   <h3>Funding For Artist</h3>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+</div>
+
+</div>
+</div>
 <div class="section section-sponsorship" id="#sponsorship-section" data-background="black">
     <div class="container">
         <div class="row justify-content-md-center">

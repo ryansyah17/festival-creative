@@ -1,194 +1,148 @@
-.section-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #0D1127;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+.event-container{
+   max-width: 1200px;
+   margin:0 auto;
+   padding:3rem 2rem;
 }
 
-.section-title {
-  color: #ffffff;
-  font-family: 'Poppins', sans-serif;
-  padding-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 2.5rem;
+.event-container .event-title{
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+   font-size: 25px;
+   color:#444;
+   margin-bottom: 3rem;
+   text-transform: uppercase;
+   text-align: center;
 }
 
-.section-voltage-button {
-  position: relative;
-  padding-right: 20px;
+.event-container .daftar-event{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   gap:10px;
 }
 
-.section-voltage-button button {
-  color: white;
-  background: #0D1127;
-  padding: 0.5rem 2rem 0.5rem 2rem;
-  border-radius: 5rem;
-  border: 5px solid #5978F3;
-  font-size: 1.2rem;
-  line-height: 1em;
-  letter-spacing: 0.075em;
-  -webkit-transition: background 0.3s;
-  transition: background 0.3s;
-  transition: transform 0.2s ease-in-out;
-  transition: box-shadow 0.2s ease-in-out;
-  
-}
-.section-voltage-button button:hover {
-  /* styling saat mouse diarahkan ke button */
-  background-color: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
-  transform: translateY(-5px);
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.event-container .daftar-event .event{
+  max-height: 50vh;
+   text-align: center;
+   padding:3rem 2rem;
+   background: #fff;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   outline: .1rem solid #ccc;
+   outline-offset: -1.5rem;
+   cursor: pointer;
 }
 
-.cards{
-  background-image: url('../img/header.jpg');
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-  padding: 10px;
-  grid-gap: 20px;
-}
-.card{
-  background-color: #1c1b29;
-  box-shadow: 0 0 30px rgba(0,0,0,0.18);
- border-radius: 20px;
- transition: all .3s;
+.event-container .daftar-event .event:hover{
+   outline: .2rem solid #222;
+   outline-offset: 0;
 }
 
- .card:hover {
-  box-shadow: 5px 5px 5px 5px rgba(0, 255, 117, 0.30);
-  transform: rotate(5deg);
- }
-
-.section-containers{
-  position: relative;
-  clip-path: polygon(0 0,100% 0, 100% 90%, 0 110%);
-}
-.images{
-  width: 100%;
-  height: 100%;
-  display: block;
-  border-radius: 20px 20px 0 0;
+.event-container .daftar-event .event img{
+   height: 90%;
 }
 
-.details{
-  padding: 20px 10px;
-}
-.details>h3{
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 18px;
-  margin: 10px 0 15px 0;
-}
-.details>p{
-  color: #a0a0a0;
-  font-size: 15px;
-  line-height: 30px;
-  font-weight: 400;
+.event-container .daftar-event .event:hover img{
+   transform: scale(.9);
 }
 
-@-webkit-keyframes spark-1 {
-  to {
-    stroke-dashoffset: -1000;
-  }
+.event-container .daftar-event .event h3{
+   padding:.5rem 0;
+   font-size: 1rem;
+   color:#444;
 }
 
-@keyframes spark-1 {
-  to {
-    stroke-dashoffset: -1000;
-  }
+.event-container .daftar-event .event:hover h3{
+   color:#27ae60;
 }
 
-@-webkit-keyframes spark-2 {
-  to {
-    stroke-dashoffset: -500;
-  }
+.event-container .daftar-event .event .price{
+   font-size: 1rem;
+   color:#444;
 }
 
-@keyframes spark-2 {
-  to {
-    stroke-dashoffset: -500;
-  }
+.products-preview{
+   position: fixed;
+   top:0; left:0;
+   min-height: 100vh;
+   width: 100%;
+   background: rgba(0,0,0,.8);
+   display: none;
+   align-items: center;
+   justify-content: center;
 }
 
-@-webkit-keyframes fly-up {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(0) scale(0.2);
-            transform: translateY(0) scale(0.2);
-  }
-
-  5% {
-    opacity: 1;
-    -webkit-transform: translateY(-1.5rem) scale(0.4);
-            transform: translateY(-1.5rem) scale(0.4);
-  }
-
-  10%, 100% {
-    opacity: 0;
-    -webkit-transform: translateY(-3rem) scale(0.2);
-            transform: translateY(-3rem) scale(0.2);
-  }
+.products-preview .preview{
+   display: none;
+   padding:2rem;
+   text-align: center;
+   background: #fff;
+   position: relative;
+   margin:5rem;
+   width: 30rem;
 }
 
-@keyframes fly-up {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(0) scale(0.2);
-            transform: translateY(0) scale(0.2);
-  }
-
-  5% {
-    opacity: 1;
-    -webkit-transform: translateY(-1.5rem) scale(0.4);
-            transform: translateY(-1.5rem) scale(0.4);
-  }
-
-  10%, 100% {
-    opacity: 0;
-    -webkit-transform: translateY(-3rem) scale(0.2);
-            transform: translateY(-3rem) scale(0.2);
-  }
+.products-preview .preview.active{
+   display: inline-block;
 }
 
-@-webkit-keyframes fly-down {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(0) scale(0.2);
-            transform: translateY(0) scale(0.2);
-  }
-
-  5% {
-    opacity: 1;
-    -webkit-transform: translateY(1.5rem) scale(0.4);
-            transform: translateY(1.5rem) scale(0.4);
-  }
-
-  10%, 100% {
-    opacity: 0;
-    -webkit-transform: translateY(3rem) scale(0.2);
-            transform: translateY(3rem) scale(0.2);
-  }
+.products-preview .preview img{
+   height: 15rem;
 }
 
-@keyframes fly-down {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(0) scale(0.2);
-            transform: translateY(0) scale(0.2);
-  }
+.products-preview .preview .fa-times{
+   position: absolute;
+   top:1rem; right:1.5rem;
+   cursor: pointer;
+   color:#444;
+   font-size: 2rem;
+   transition: transform 0.5s;
+}
 
-  5% {
-    opacity: 1;
-    -webkit-transform: translateY(1.5rem) scale(0.4);
-            transform: translateY(1.5rem) scale(0.4);
-  }
+.products-preview .preview .fa-times:hover{
+   transform: rotate(90deg);
+}
 
-  10%, 100% {
-    opacity: 0;
-    -webkit-transform: translateY(3rem) scale(0.2);
-            transform: translateY(3rem) scale(0.2);
-  }
+.products-preview .preview h3{
+   color:#444;
+   padding:.5rem 0;
+   font-size: 1.25rem;
+}
+
+
+.products-preview .preview p{
+   line-height: 1.5;
+   padding:1rem 0;
+   font-size: 1rem;
+   color:#777;
+}
+
+
+
+
+
+@media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+
+}
+
+@media (max-width:768px){
+
+   .products-preview .preview img{
+      height: 25rem;
+   }
+
+}
+
+@media (max-width:450px){
+
+   html{
+      font-size: 50%;
+   }
+
 }
 
 /* kontak  */
