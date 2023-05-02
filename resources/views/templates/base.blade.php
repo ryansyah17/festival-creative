@@ -16,7 +16,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- CSS Files -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="./assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/css/style.css" rel="stylesheet" />
     
@@ -110,6 +113,10 @@
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script> -->
     <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
     <script src="./assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <script>
         $(document).ready(function() {
             nowuiKit.initSliders();
