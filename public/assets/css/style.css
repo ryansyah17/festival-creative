@@ -8,22 +8,22 @@
 
 .event-container .event-title{
   font-weight: bold;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
    font-size: 25px;
    color:#444;
    margin-bottom: 3rem;
-   text-transform: uppercase;
    text-align: center;
 }
 
 .event-container .daftar-event{
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
    gap:10px;
 }
 
 .event-container .daftar-event .event{
-  max-height: 50vh;
+   max-height: 50vh;
+   width: 100%;
    text-align: center;
    padding:3rem 2rem;
    background: #fff;
@@ -147,12 +147,12 @@
 
 /* kontak  */
 .section-contact {
-  background-color: #fff;
+  background-color: #42763d;
   padding: 1rem 7% 1.4rem;
 }
 .section-contact h2 span {
   color: #000;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;

@@ -8,12 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>@yield('title')</title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+        name='viewport' />
     <!-- Fonts and icons -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- CSS Files -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -22,23 +25,33 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/css/style.css" rel="stylesheet" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
 </head>
 
-<body class="index-page sidebar-collapse">
+<body class="index-page sidebar-collapse" data-background-color="black">
     <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
-        <div class="container">
+        <div class="container animate__animated animate__fadeInDown">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="#" onclick="scrollToHome()" rel="tooltip" title="Bukittinggi Creative Week Festival" data-placement="bottom">
+                <a class="navbar-brand" href="#" onclick="scrollToHome()" rel="tooltip"
+                    title="Bukittinggi Creative Week Festival" data-placement="bottom">
                     BCWF 2023
                 </a>
-                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar top-bar"></span>
                     <span class="navbar-toggler-bar middle-bar"></span>
                     <span class="navbar-toggler-bar bottom-bar"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
+            <div class="collapse navbar-collapse justify-content-end" id="navigation"
+                data-nav-image="./assets/img/blurred-image-1.jpg">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)" onclick="scrollToHome()">
@@ -71,19 +84,22 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/bcwf2023" target="_blank">
+                        <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom"
+                            href="https://twitter.com/bcwf2023" target="_blank">
                             <i class="fab fa-twitter"></i>
                             <p class="d-lg-none d-xl-none">Twitter</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/bcwf2023" target="_blank">
+                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom"
+                            href="https://www.facebook.com/bcwf2023" target="_blank">
                             <i class="fab fa-facebook-square"></i>
                             <p class="d-lg-none d-xl-none">Facebook</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/bcwf2023" target="_blank">
+                        <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom"
+                            href="https://www.instagram.com/bcwf2023" target="_blank">
                             <i class="fab fa-instagram"></i>
                             <p class="d-lg-none d-xl-none">Instagram</p>
                         </a>
@@ -95,9 +111,15 @@
     @yield('container')
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
     <!--   Core JS Files   -->
     <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
@@ -115,9 +137,9 @@
     <script src="./assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
     <script src="assets/js/detail_event.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script>
+        AOS.init();
+    </script>
     <script>
         $(document).ready(function() {
             nowuiKit.initSliders();
