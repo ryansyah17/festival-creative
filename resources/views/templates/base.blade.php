@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,7 +72,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)" onclick="scrollToKontak()">
-                            <p>Kontak</p>
+                            <p>Information</p>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -130,6 +131,9 @@
     <script src="./assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
     <script src="assets/js/detail_event.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        feather.replace()
+    </script>
     <script>
         AOS.init();
     </script>
