@@ -83,7 +83,7 @@
     <div class="section section-event" id="#event-section" data-background-color="merah">
         <div class="event-container">
 
-            <h3 class="event-title"> Daftar Event </h3>
+            <h3 class="event-title"> Event </h3>
 
             <div class="daftar-event">
 
@@ -184,7 +184,7 @@
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="text-center col-md-12 col-lg-10">
-                    <h3 class="title">Sponsorship</h3>
+                    <h1 class="title">Sponsorship</h1>
                     <div class="card">
                         <div class="card-body">
                             <br>
@@ -200,35 +200,43 @@
         </div>
     </div>
     <div class="section section-kontak" id="#kontak-section" data-background-color="hijau">
-        <div class="section-contact">
-            <h2><span>Kontak Kami</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, provident.
-            </p>
-            <div class="row">
-                <iframe
+        <div class="kontak-container">
+            <h3 class="kontak-title">
+                Information
+            </h3>
+            <div class="kontak">
+                <div class="row">
+                    <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7617337929737!2d100.3669398596592!3d-0.3051533853376605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd538bce0251993%3A0x671c755cea2a2d4!2sJam%20Gadang%2C%20Benteng%20Ps.%20Atas%2C%20Kec.%20Guguk%20Panjang%2C%20Kota%20Bukittinggi%2C%20Sumatera%20Barat%2026136!5e0!3m2!1sid!2sid!4v1682957420366!5m2!1sid!2sid"
                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                     class="map"></iframe>
-                <div class="contact-container">
-                    <div class="contact-info">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-
-                    <div class="contact-wrapper">
-                        <a href="https://www.instagram.com/bktcreativeweekfestival/" class="contact-box instagram">
-                            <i class="fi fi-instagram" data-feather="instagram"></i>
-                            <span>Instagram</span>
-                        </a>
-                        <a href="https://wa.me/+6281243779612" class="contact-box whatsapp">
-                            <i class="fi fi-whatsapp" data-feather="phone"></i>
-                            <span>WhatsApp</span>
-                        </a>
-                        <a href="#" class="contact-box twitter">
-                            <i class="fi fi-twitter" data-feather="twitter"></i>
-                            <span>Twitter</span>
-                        </a>
-                    </div>
                 </div>
+                    <div class="contact-info">
+                        <div class="card-info">
+                            <a href="#" class="icon1">
+                              <i class="icons fa fa-facebook"></i>
+                              <span>Facebook</span>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <a href="https://www.instagram.com/bktcreativeweekfestival/" class="icon2">
+                              <i class="icons fa fa-instagram"></i>
+                              <span>Instagram</span>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <a href="#" class="icon3">
+                              <i class="icons fa fa-twitter"></i>
+                              <span>Twitter</span>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <a href="#" class="icon4">
+                              <i class="icons fa fa-whatsapp"></i>
+                              <span>WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
