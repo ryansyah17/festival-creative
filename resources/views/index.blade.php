@@ -21,9 +21,6 @@
     <div class="section section-about" id="#about-section" data-background-color="blue">
         <div class="event-container">
             <div class="row justify-content-center">
-                <h1>About Us</h1>
-            </div>
-            <div class="row justify-content-center">
                 <div class="col-md-7 col-lg-5">
                     <div class="card flex-md-row mb-4 box-shadow h-md-250">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -34,13 +31,13 @@
                             </ol>
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item active">
-                                    <img class="d-block" src="./assets/img/bg_bcwf.jpg" alt="First slide">
+                                    <img class="d-block" src="./assets/images/bcwf2023.png" alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block" src="./assets/img/bg_bcwf.jpg" alt="Second slide">
+                                    <img class="d-block" src="./assets/images/bcwf2023.png" alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block" src="./assets/img/bg_bcwf.jpg" alt="Third slide">
+                                    <img class="d-block" src="./assets/images/bcwf2023.png" alt="Third slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
@@ -55,8 +52,9 @@
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                        <div class="card-body d-flex flex-column align-items-start">
+                    <div class="flex-md-row mb-4 box-shadow h-md-250" data-background-color="white">
+                        <div class="d-flex flex-column align-items-start">
+                            <h1>About Us</h1>
                             <span>Bukittinggi Creative Week Festival 2023 adalah agenda kreatif yang akan diadakan pada
                                 bulan Agustus 2023. Agenda ini bertujuan untuk merepresentasi pekerja seni dan pekerja
                                 industri kreatif di Bukittinggi. Agenda kreatif ini tentu akan mendukung kerja-kerja kreatif
