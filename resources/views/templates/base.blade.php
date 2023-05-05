@@ -76,24 +76,24 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-neutral" href="#" target="_blank">
+                        <a class="nav-link btn btn-neutral" href="javascript:void(0)" onclick="scrollToTicket()">
                             <p>Buy Ticket Now !</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/bcwf2023" target="_blank">
+                        <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/#" target="_blank">
                             <i class="fab fa-twitter"></i>
                             <p class="d-lg-none d-xl-none">Twitter</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/bcwf2023" target="_blank">
+                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/#" target="_blank">
                             <i class="fab fa-facebook-square"></i>
                             <p class="d-lg-none d-xl-none">Facebook</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/bcwf2023" target="_blank">
+                        <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/#" target="_blank">
                             <i class="fab fa-instagram"></i>
                             <p class="d-lg-none d-xl-none">Instagram</p>
                         </a>
@@ -166,6 +166,13 @@
             }
         }
 
+        function scrollToTicket() {
+            if ($('.section-ticket').length != 0) {
+                $("html, body").animate({
+                    scrollTop: $('.section-ticket').offset().top
+                }, 1000);
+            }
+        }
         function scrollToSponsorship() {
             if ($('.section-sponsorship').length != 0) {
                 $("html, body").animate({

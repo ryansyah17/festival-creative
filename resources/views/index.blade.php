@@ -180,18 +180,90 @@
 
         </div>
     </div>
+
+    <div class="section section-ticket" id="#about-section" data-background-color="blue">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="text-center col-md-12">
+                    <h1>Ticket</h1>
+                    <div class="flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="d-flex flex-column align-items-start">
+                            <div class="ticket">
+                                <div class="left">
+                                    <div class="image">
+                                        <p class="admit-one">
+                                            <span>BCWF</span>
+                                            <span>BCWF</span>
+                                            <span>BCWF</span>
+                                        </p>
+                                        <div class="ticket-number">
+                                            <p>
+                                                #2023.1
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-info">
+                                        <p class="date">
+                                            <span class="day">TUESDAY</span>
+                                            <span class="june-29">JUNE 29TH</span>
+                                            <span class="day">2023</span>
+                                        </p>
+                                        <div class="show-name">
+                                            <span>Bukittinggi Creative Week Festival</span>
+                                        </div>
+                                        <div class="time">
+                                            <span>8:00 PM <span>TO</span> 11:00 PM</span>
+                                            <span>BCWF <span>@</span> 7:00 PM</span>
+                                        </div>
+                                        <div class="show-name">
+                                            <span class="location"><span>Bukittinggi</span>
+                                                <span class="separator"><i class="far fa-smile"></i></span><span>Lapangan Kantin</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p class="admit-one">
+                                        <span>BCWF</span>
+                                        <span>BCWF</span>
+                                        <span>BCWF</span>
+                                    </p>
+                                    <div class="right-info-container">
+                                        <div class="show-name">
+                                            <!-- <span>SOUR Prom</span> -->
+                                        </div>
+                                        <div class="time">
+                                            <span>8:00 PM <span>TO</span> 11:00 PM</span>
+                                            <span>BCWF <span>@</span> 7:00 PM</span>
+                                        </div>
+                                        <br><div class="barcode">
+                                            <img src="https://external-preview.redd.it/cg8k976AV52mDvDb5jDVJABPrSZ3tpi1aXhPjgcDTbw.png?auto=webp&s=1c205ba303c1fa0370b813ea83b9e1bddb7215eb" alt="QR code">
+                                        </div>
+                                        <div class="time"><span>#2023.1</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
     <div class="section section-sponsorship" id="#sponsorship-section" data-background-color="kuning">
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="text-center col-md-12 col-lg-10">
-                    <h1 class="title">Sponsorship</h1>
+                    <h1>Sponsorship</h1>
                     <div class="card">
                         <div class="card-body">
                             <br>
-                            <h5>ISI SPONSOR</h5>
-                            <h5>ISI SPONSOR</h5>
-                            <h5>ISI SPONSOR</h5>
-                            <h5>ISI SPONSOR</h5>
+                            <span class="text-black">ISI SPONSOR</span><br>
+                            <span class="text-black">ISI SPONSOR</span><br>
+                            <span class="text-black">ISI SPONSOR</span><br>
+                            <span class="text-black">ISI SPONSOR</span><br>
+                            <span class="text-black">ISI SPONSOR</span><br><br>
                         </div>
                     </div>
                 </div>
