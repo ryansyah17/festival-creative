@@ -18,6 +18,29 @@
             </div>
         </div>
     </div>
+    <div class="section section-countdown" id="#countdown-section" data-background-color="merah">
+        <div class="count-conta">
+        <div class="countdown-title">Countdown</div>
+		    <div class="countdown-container">
+		        <div class="countdown-box-days">
+			        <span id="days"></span>
+			        <div class="countdown-label">Hari</div>
+		        </div>
+		        <div class="countdown-box-hours">
+			        <span id="hours"></span>
+			        <div class="countdown-label">Jam</div>
+		        </div>
+		        <div class="countdown-box-minutes">
+			        <span id="minutes"></span>
+			        <div class="countdown-label">Menit</div>
+		        </div>
+		        <div class="countdown-box-seconds">
+			        <span id="seconds"></span>
+			        <div class="countdown-label">Detik</div>
+		        </div>
+		    </div>
+        </div>
+	</div>
     <div class="section section-about" id="#about-section" data-background-color="blue">
         <div class="event-container">
             <div class="row justify-content-center">
@@ -181,71 +204,14 @@
         </div>
     </div>
 
-    <div class="section section-ticket" id="#about-section" data-background-color="blue">
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="text-center col-md-12">
-                    <h1>Ticket</h1>
-                    <div class="flex-md-row mb-4 box-shadow h-md-250">
-                        <div class="d-flex flex-column align-items-start">
-                            <div class="ticket">
-                                <div class="left">
-                                    <div class="image">
-                                        <p class="admit-one">
-                                            <span>BCWF</span>
-                                            <span>BCWF</span>
-                                            <span>BCWF</span>
-                                        </p>
-                                        <div class="ticket-number">
-                                            <p>
-                                                #2023.1
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="ticket-info">
-                                        <p class="date">
-                                            <span class="day">TUESDAY</span>
-                                            <span class="june-29">JUNE 29TH</span>
-                                            <span class="day">2023</span>
-                                        </p>
-                                        <div class="show-name">
-                                            <span>Bukittinggi Creative Week Festival</span>
-                                        </div>
-                                        <div class="time">
-                                            <span>8:00 PM <span>TO</span> 11:00 PM</span>
-                                            <span>BCWF <span>@</span> 7:00 PM</span>
-                                        </div>
-                                        <div class="show-name">
-                                            <span class="location"><span>Bukittinggi</span>
-                                                <span class="separator"><i class="far fa-smile"></i></span><span>Lapangan Kantin</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="right">
-                                    <p class="admit-one">
-                                        <span>BCWF</span>
-                                        <span>BCWF</span>
-                                        <span>BCWF</span>
-                                    </p>
-                                    <div class="right-info-container">
-                                        <div class="show-name">
-                                            <!-- <span>SOUR Prom</span> -->
-                                        </div>
-                                        <div class="time">
-                                            <span>8:00 PM <span>TO</span> 11:00 PM</span>
-                                            <span>BCWF <span>@</span> 7:00 PM</span>
-                                        </div>
-                                        <br><div class="barcode">
-                                            <img src="https://external-preview.redd.it/cg8k976AV52mDvDb5jDVJABPrSZ3tpi1aXhPjgcDTbw.png?auto=webp&s=1c205ba303c1fa0370b813ea83b9e1bddb7215eb" alt="QR code">
-                                        </div>
-                                        <div class="time"><span>#2023.1</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="section section-ticket" id="#ticket-section" data-background-color="blue">
+        <div class="ticket-container">
+            <h3 class="ticket-title">Ticket</h3>
+            <div class="daftar-ticket">    
+                <div class="ticket"></div>
+                <div class="ticket"></div>
+                <div class="ticket"></div>
+                <div class="ticket"></div>
             </div>
             
         </div>
@@ -264,6 +230,7 @@
                             <span class="text-black">ISI SPONSOR</span><br>
                             <span class="text-black">ISI SPONSOR</span><br>
                             <span class="text-black">ISI SPONSOR</span><br><br>
+                            
                         </div>
                     </div>
                 </div>

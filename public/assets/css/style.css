@@ -275,184 +275,264 @@ span{
   }
 }
 
-.ticket {
-	margin: auto;
-	display: flex;
-	background: white;
-	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+.ticket-container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 1rem 2rem;
 }
 
-.left {
-	display: flex;
+.ticket-container .ticket-title {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 3.5rem;
+   color: #444;
+   margin-bottom: 3rem;
+   text-align: center;
 }
 
-.image {
-	height: 250px;
-	width: 250px;
-	background-image: url("https://media.pitchfork.com/photos/60db53e71dfc7ddc9f5086f9/1:1/w_1656,h_1656,c_limit/Olivia-Rodrigo-Sour-Prom.jpg");
-	background-size: contain;
-	opacity: 0.85;
+.daftar-ticket{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+   gap: 15px;
 }
 
-.admit-one {
-	position: absolute;
-	color: darkgray;
-	height: 250px;
-	padding: 0 0px;
-	letter-spacing: 0.15em;
-	display: flex;
-	text-align: left;
-	justify-content: space-around;
-	writing-mode: vertical-rl;
-	transform: rotate(-180deg);
+.ticket{
+   height: 200px;
+   /* background-color: #075E54; */
+   background-image: url(../images/ticket.jpg);
+   background-size: cover;
+   border-radius: 9px;
+   display: flex;
+   /* justify-content: space-between; */
+   align-items: center;
+   font-size: 1.5rem;
 }
 
-.admit-one span:nth-child(1) {
-	color: black;
-	font-weight: 700;
-}
-.admit-one span:nth-child(2) {
-	color: white;
-	font-weight: 700;
-}
-.admit-one span:nth-child(3) {
-	color: black;
-	font-weight: 700;
+.left{
+   flex-direction: column;
+   display: flex;
 }
 
-.left .ticket-number {
-	height: 250px;
-	width: 250px;
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-	padding: 5px;
+.image{
+   border-top-left-radius: 9px;
+   border-bottom-left-radius: 9px;
+   width: 150px;
+   height: 200px;
+   background-image: url(../images/bcwf2023.png);
+   background-size: cover;
 }
 
-.ticket-info {
-	padding: 10px 30px;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	justify-content: space-between;
-	align-items: center;
+.image span{
+   margin: 15px;
+   color: #D4AF37;
+   font-weight: 900;
 }
 
-.date {
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
-	padding: 5px 0;
-	font-weight: 700;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+.center{
+   justify-content: center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
 }
 
-.date span {
-	width: 100px;
+.jenis{
+   /* margin-left: px; */
+   /* margin-bottom: 160px; */
+   width: 261px;
+   border-top: 1px solid gray;
+   border-bottom: 1px solid gray;
+   padding: 5px 0;
+   font-weight: 700;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   color: #D4AF37;
 }
 
-.date span:first-child {
-	text-align: left;
+.right{
+   /* background-image: url("https://media.pitchfork.com/photos/60db53e71dfc7ddc9f5086f9/1:1/w_1656,h_1656,c_limit/Olivia-Rodrigo-Sour-Prom.jpg");*/
+   background-color: #fff;
+   width: 150px;
+   height: 200px;
+   background-size: cover;
+   border-top-right-radius: 9px;
+   border-bottom-right-radius: 9px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
 }
 
-.date span:last-child {
-	text-align: right;
+.barcode{
+   height: 100px;
+   width: 100px;
 }
 
-.date .june-29 {
-	color: #d83565;
-	font-size: 20px;
-}
-.date .day {
-	color: #000;
-	font-size: 15px;
+.right span{
+   font-weight: 500;
+   margin-top: 10px;
+   color: #075E54;
 }
 
-.show-name {
-	font-size: 18px;
-	font-family: "Nanum Pen Script", cursive;
-	color: #000;
+.harga{
+   flex-direction: column;
+   display: flex;
 }
 
-.show-name h1 {
-	font-size: 48px;
-	font-weight: 700;
-	letter-spacing: 0.1em;
-	color: #4a437e;
+.presale{
+   font-size: 20px;   
 }
 
-.time {
-	padding: 10px 0;
-	color: #4a437e;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	font-weight: 700;
+.rupiah{
+   /* align-items: center; */
+   justify-content: center;
+   flex-direction: row;
+   display: flex;
 }
 
-.time span {
-	font-weight: 400;
-   font-size: 10px;
-	color: gray;
+.rupiah .rp{
+   margin-top: 7px;
+   font-size: 15px;
+   font-weight: bold;
 }
 
-.left .time {
-	font-size: 16px;
+.rupiah .h175k{
+   margin-left: 4px;
+   font-size: 35px;
+   font-weight: bold;
 }
 
 
-.location {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	width: 100%;
-	padding-top: 8px;
-	border-top: 1px solid gray;
+.count-conta {
+   flex-direction: column;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-.location .separator {
-	font-size: 20px;
+.countdown-title {
+   margin-bottom: 40px;
+   font-size: 3.5rem;
+   font-family: 'Montserrat', sans-serif;
+
 }
 
-.right {
-	width: 180px;
-	border-left: 1px dashed #404040;
+.countdown-container {
+   display: flex;
+   flex-direction: row;
 }
 
-.right .admit-one {
-	color: darkgray;
+.countdown-box-days {
+   background-color: #EF2F3C;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 100px;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   font-family: 'Lato', sans-serif;
+   font-size: 50px;
+   font-weight: bold;
+   color: white;
+}
+.countdown-box-days span{
+   font-size: 2.5rem;
 }
 
-.right .admit-one span:nth-child(2) {
-	color: gray;
+.countdown-box-hours {
+   background-color: green;
+   justify-content: center;
+   width: 100px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   font-family: 'Lato', sans-serif;
+   font-size: 50px;
+   font-weight: bold;
+   color: white;
 }
 
-.right .right-info-container {
-	height: 250px;
-	padding: 10px 10px 10px 35px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+.countdown-box-hours span {
+   font-size: 2.5rem;
 }
 
-.right .show-name h1 {
-	font-size: 18px;
+.countdown-box-minutes {
+   background-color: #276FBF;
+   justify-content: center;
+   width: 100px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   font-family: 'Lato', sans-serif;
+   font-size: 50px;
+   font-weight: bold;
+   color: white;
 }
 
-.barcode {
-	height: 100px;
+.countdown-box-minutes span {
+   font-size: 2.5rem;
 }
 
-.barcode img {
-	height: 100%;
+.countdown-box-seconds {
+   background-color: #F0A202;
+   justify-content: center;
+   width: 100px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   font-family: 'Lato', sans-serif;
+   font-size: 50px;
+   font-weight: bold;
+   color: white;
 }
 
-.right .ticket-number {
-	color: gray;
+.countdown-box-seconds span {
+   font-size: 2.5rem;
 }
-.right .ticket-number-black {
-	color: black;
+
+.countdown-label {
+   font-size: 18px;
+   color: #999;
+   display: block;
+   margin-top: 10px;
+}
+
+@media screen and (max-width:800px) {
+   .count-conta{
+      width: 100%;
+      justify-content: center;
+      display: flex;
+      margin-bottom: 20px;
+      align-items: center;
+   }
+   .countdown-box-days{
+      margin-top: 20px;
+      width: 20%;
+   }
+   .countdown-box-hours {
+      margin-top: 20px;
+      width: 20%;
+   }
+   .countdown-box-minutes {
+      margin-top: 20px;
+      width: 20%;
+   }
+   .countdown-box-seconds {
+      margin-top: 20px;
+      width: 20%;
+   }
 }
