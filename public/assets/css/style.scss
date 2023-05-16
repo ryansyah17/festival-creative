@@ -12,7 +12,7 @@
 }
 
 $blue: #1c9dcc;
-$black: #f6b418;
+$yellow: #f6b418;
 $white: #ffffff;
 $light-color: #aaa;
 $bg-color: #222;
@@ -40,7 +40,7 @@ html{
     }
 
     &::-webkit-scrollbar-thumb{
-        background: $black;
+        background: $yellow;
     }
 }
 
@@ -60,7 +60,7 @@ section{
     margin-bottom: 2rem;
     
     span{
-        color: $black;
+        color: $yellow;
         font-weight: 800;
         font-size: 2rem;
     }
@@ -84,7 +84,7 @@ section{
 
     &:hover{
         background: $blue;
-        color: $black;
+        color: $yellow;
     }
 
 }
@@ -93,7 +93,7 @@ section{
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 1000;
-    background: $black;
+    background: $yellow;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -179,7 +179,7 @@ section{
     // height: 15vh;
     margin: 1rem auto;
     margin-top: -5rem;
-    background: $black;
+    background: $yellow;
     border-radius: 1rem;
     box-shadow: 0 .5rem 1rem rgba(17,17,17, .3);
     padding: 3rem 2rem;
@@ -223,7 +223,7 @@ section{
 }
 
 .about{
-    background-color: $black;
+    background-color: $yellow;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -252,7 +252,7 @@ section{
                 margin: .7rem;
 
                 &:hover{
-                    background: $black;
+                    background: $yellow;
                 }
             }
         }
@@ -342,7 +342,7 @@ section{
         border-radius: 1rem;
         padding: 3rem;
         text-align: center;
-        border: .2rem solid $black;
+        border: .2rem solid $yellow;
 
         &:hover{
             border: $border;
@@ -485,7 +485,7 @@ section{
 }
 
 .tiket .box-container .box .title{
-    background: $black;
+    background: $yellow;
     color: $white;
     padding: 1.5rem 0;
     font-size: 2rem;
@@ -562,7 +562,7 @@ section{
     
                 i{
                     padding-right: .5rem;
-                    color: $black;
+                    color: $yellow;
                 }
             } 
             
@@ -594,7 +594,7 @@ section{
                 display: block;
 
                 &:hover{
-                    color: $black;
+                    color: $yellow;
                     i{
                         padding-right: 2rem;
                     }
@@ -613,7 +613,7 @@ section{
 }
 
 .credit{
-    background: $black;
+    background: $yellow;
     text-align: center;
     font-size: 2rem;
     padding: 2rem 1rem;
