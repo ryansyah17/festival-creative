@@ -127,7 +127,7 @@
       <div class="box-container">
         <div class="box" data-aos="fade-up" data-aos-delay="150">
           <div class="image">
-            <img src="assets/images/logo2.jpg" alt="" />
+            <img src="assets/images/talkshow.jpg" alt="" />
           </div>
           <div class="content">
             <h3>Talkshow</h3>
@@ -137,7 +137,7 @@
         </div>
         <div class="box" data-aos="fade-up" data-aos-delay="300">
           <div class="image">
-            <img src="assets/images/logo2.jpg" alt="" />
+            <img src="assets/images/music_event.jpg" alt="" />
           </div>
           <div class="content">
             <h3>Music Event</h3>
@@ -147,27 +147,27 @@
         </div>
         <div class="box" data-aos="fade-up" data-aos-delay="450">
           <div class="image">
-            <img src="assets/images/logo2.jpg" alt="" />
+            <img src="assets/images/creative_discussion.jpg" alt="" />
           </div>
           <div class="content">
-            <h3>Workshop</h3>
+            <h3>Creative Discussion</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="#">read more <i class="fas fa-angle-right"></i></a>
           </div>
         </div>
         <div class="box" data-aos="fade-up" data-aos-delay="600">
           <div class="image">
-            <img src="assets/images/logo2.jpg" alt="" />
+            <img src="assets/images/art_performance.jpg" alt="" />
           </div>
           <div class="content">
-            <h3>Local Art Performance</h3>
+            <h3>Art Performance</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="#">read more <i class="fas fa-angle-right"></i></a>
           </div>
         </div>
         <div class="box" data-aos="fade-up" data-aos-delay="750">
           <div class="image">
-            <img src="assets/images/logo2.jpg" alt="" />
+            <img src="assets/images/local_discussion.jpg" alt="" />
           </div>
           <div class="content">
             <h3>Local Discussion</h3>
@@ -175,19 +175,9 @@
             <a href="#">read more <i class="fas fa-angle-right"></i></a>
           </div>
         </div>
-        <div class="box" data-aos="fade-up" data-aos-delay="900">
-          <div class="image">
-            <img src="assets/images/logo2.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Bukittinggi Menyeduh</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#">read more <i class="fas fa-angle-right"></i></a>
-          </div>
-        </div>
         <div class="box" data-aos="fade-up" data-aos-delay="1050">
           <div class="image">
-            <img src="assets/images/logo2.jpg" alt="" />
+            <img src="assets/images/art_exhibition.jpg" alt="" />
           </div>
           <div class="content">
             <h3>Art Exhibition</h3>
@@ -197,7 +187,7 @@
         </div>
         <div class="box" data-aos="fade-up" data-aos-delay="1200">
           <div class="image">
-            <img src="assets/images/logo2.jpg" alt="" />
+            <img src="assets/images/grant_for_Artist.jpg" alt="" />
           </div>
           <div class="content">
             <h3>Funding For Artist</h3>

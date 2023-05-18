@@ -159,9 +159,10 @@ section {
 .book-form .title {
   font-size: 2.8rem;
   font-weight: bolder;
+  color: #ffffff;
 }
 .book-form .countdown {
-  width: 70vw;
+  width: 60vw;
   justify-content: space-around;
   display: flex;
 }
@@ -244,15 +245,15 @@ section {
   gap: 1.5rem;
 }
 .event .box-container .box {
-  border-radius: 1rem;
+  border: 0.2rem solid #ffffff;
   overflow: hidden;
-  background: #222;
+  background: #f6b418;
 }
 .event .box-container:hover img {
   transform: scale(1.1);
 }
 .event .box-container .image {
-  height: 20rem;
+  height: 25rem;
   overflow: hidden;
   width: 100%;
 }
@@ -263,7 +264,8 @@ section {
      object-fit: cover;
 }
 .event .box-container .content {
-  padding: 2rem;
+  padding: 1rem;
+  border-top: 0.2rem solid #ffffff;
   text-align: center;
 }
 .event .box-container .content h3 {
@@ -273,12 +275,12 @@ section {
 .event .box-container .content p {
   padding: 1rem 0;
   font-size: 1.4rem;
-  color: #aaa;
+  color: #ffffff;
   line-height: 2;
 }
 .event .box-container .content a {
   font-size: 1.7rem;
-  color: #1c9dcc;
+  color: #ffffff;
 }
 .event .box-container .content a:hover i {
   padding-left: 1rem;

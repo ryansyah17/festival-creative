@@ -176,7 +176,6 @@ section{
 
 .book-form{
     width: 80%;
-    // height: 15vh;
     margin: 1rem auto;
     margin-top: -5rem;
     background: $yellow;
@@ -190,10 +189,11 @@ section{
     .title{
         font-size: 2.8rem;
         font-weight: bolder;
+        color: $white;
     }
 
     .countdown{
-        width: 70vw;
+        width: 60vw;
         justify-content: space-around;
         display: flex;
 
@@ -286,16 +286,17 @@ section{
     @include grid(27rem);
 
     .box{
-        border-radius: 1rem;
+        // border-radius: 1rem;
+        border: .2rem solid $white;
         overflow: hidden;
-        background: $bg-color;
+        background: $yellow;
     }
         &:hover img{
             transform: scale(1.1);
         }
 
     .image{
-        height: 20rem;
+        height: 25rem;
         overflow: hidden;
         width: 100%;
 
@@ -307,7 +308,8 @@ section{
     }
 
     .content{
-        padding: 2rem;
+        padding: 1rem;
+        border-top: .2rem solid $white;
         text-align: center;
 
         h3{
@@ -317,12 +319,12 @@ section{
         p{
             padding: 1rem 0;
             font-size: 1.4rem;
-            color: $light-color;
+            color: $white;
             line-height: 2;
         }
         a{
             font-size: 1.7rem;
-            color: $blue;
+            color: $white;
 
             &:hover i{
                 padding-left: 1rem;
