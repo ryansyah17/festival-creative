@@ -286,10 +286,10 @@ section{
     @include grid(27rem);
 
     .box{
-        // border-radius: 1rem;
+        border-radius: 1rem;
         border: .2rem solid $white;
         overflow: hidden;
-        background: $yellow;
+        background: $white;
     }
         &:hover img{
             transform: scale(1.1);
@@ -314,17 +314,17 @@ section{
 
         h3{
             font-size: 2rem;
-            color: $white;
+            color: $yellow;
         }
         p{
             padding: 1rem 0;
             font-size: 1.4rem;
-            color: $white;
+            color: $yellow;
             line-height: 2;
         }
         a{
             font-size: 1.7rem;
-            color: $white;
+            color: $yellow;
 
             &:hover i{
                 padding-left: 1rem;
