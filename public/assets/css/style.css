@@ -239,6 +239,19 @@ section {
   line-height: 2;
 }
 
+.detail_about {
+  width: 80%;
+  height: 100vh;
+  margin-top: 100px;
+  justify-content: center;
+}
+.detail_about h3 {
+  font-size: 3.5rem;
+}
+.detail_about p {
+  font-size: 1.5rem;
+}
+
 .event .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));

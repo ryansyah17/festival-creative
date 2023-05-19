@@ -10,27 +10,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="assets/js/script.js" defer></script>
-    <title>Home | BCWF2023</title>
+    <title>BCWF2023</title>
 </head>
 
 <body>
     <header class="header">
-        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="/" data-aos="zoom-in-left"><i class="fas fa-angle-left"> BACK</i></a>
 
         <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo">BCWF 2023</a>
-
-        <nav data-aos="zoom-in-left" data-aos-delay="300" class="navbar">
-            <a data-aos="zoom-in-left" data-aos-delay="450" href="#home">Home</a>
-            <a data-aos="zoom-in-left" data-aos-delay="600" href="#about">About</a>
-            <a data-aos="zoom-in-left" data-aos-delay="750" href="#event">Event</a>
-            <a data-aos="zoom-in-left" data-aos-delay="900" href="#venue">venue</a>
-            <a data-aos="zoom-in-left" data-aos-delay="1050" href="#lineup">lineup</a>
-        </nav>
-
-        <a data-aos="zoom-in-left" data-aos-delay="1350" href="#book-form" class="btn">Get-Tiket</a>
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"></a>
     </header>
 
-    @yield('index')
     @yield('detail_about')
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

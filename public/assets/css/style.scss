@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     outline: none;
     border: none;
@@ -19,59 +20,59 @@ $bg-color: #222;
 $black-bg: rgba(17, 17, 17, 0.7);
 $border: .2rem solid $blue;
 
-@mixin grid($val){
+@mixin grid($val) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
     gap: 1.5rem;
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 9rem;
 
-    &::-webkit-scrollbar{
+    &::-webkit-scrollbar {
         width: 1rem;
     }
 
-    &::-webkit-scrollbar-track{
+    &::-webkit-scrollbar-track {
         background: $black-bg;
     }
 
-    &::-webkit-scrollbar-thumb{
+    &::-webkit-scrollbar-thumb {
         background: $yellow;
     }
 }
 
 
 
-body{
+body {
     background: $blue;
     overflow-x: hidden;
 }
 
-section{
+section {
     padding: 3rem 9%;
 }
 
-.heading{
+.heading {
     text-align: center;
     margin-bottom: 2rem;
-    
-    span{
+
+    span {
         color: $yellow;
         font-weight: 800;
         font-size: 2rem;
     }
 
-    h1{
+    h1 {
         font-size: 4rem;
         color: $white;
     }
 }
 
-.btn{
+.btn {
     margin-top: 1rem;
     display: inline-block;
     padding: 1rem 3rem;
@@ -82,16 +83,18 @@ section{
     cursor: pointer;
     background: none;
 
-    &:hover{
+    &:hover {
         background: $blue;
         color: $yellow;
     }
 
 }
 
-.header{
+.header {
     position: fixed;
-    top: 0; left: 0; right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 1000;
     background: $yellow;
     display: flex;
@@ -104,42 +107,43 @@ section{
         color: $white;
         display: inline-block;
         margin: 0 1rem;
-    
-        &:hover{
+
+        &:hover {
             color: #29d9d5;
         }
     }
-    .btn{
+
+    .btn {
         margin-top: 0;
     }
 }
 
 
 
-.logo{
+.logo {
     font-size: 2.5rem;
     color: white;
     font-weight: bolder;
 
-    i{
+    i {
         color: #29d9d5;
         padding-right: .5rem;
     }
 }
 
-#menu-btn{
+#menu-btn {
     font-size: 2.5rem;
     color: $white;
     cursor: pointer;
     display: none;
 }
 
-.home{
+.home {
     margin: 0 auto;
     margin-top: 9rem;
     width: 90%;
     border-radius: 1rem;
-    background:linear-gradient($black-bg, $black-bg), url(../images/BCWF_SLIDEPOST_REV1_01052023-01.jpg) no-repeat;
+    background: linear-gradient($black-bg, $black-bg), url(../images/BCWF_SLIDEPOST_REV1_01052023-01.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -148,10 +152,10 @@ section{
     justify-content: center;
     padding-bottom: 5rem;
 
-    .content{
+    .content {
         text-align: center;
 
-        span{
+        span {
             font-weight: bolder;
             color: transparent;
             -webkit-text-stroke: .1rem $white;
@@ -159,12 +163,12 @@ section{
             display: block;
         }
 
-        h3{
+        h3 {
             font-size: 6vw;
             color: $white;
         }
 
-        p{
+        p {
             max-width: 60rem;
             margin: 1rem auto;
             font-size: 1.8rem;
@@ -174,30 +178,30 @@ section{
     }
 }
 
-.book-form{
+.book-form {
     width: 80%;
     margin: 1rem auto;
     margin-top: -5rem;
     background: $yellow;
     border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(17,17,17, .3);
+    box-shadow: 0 .5rem 1rem rgba(17, 17, 17, .3);
     padding: 3rem 2rem;
     align-items: center;
     display: flex;
     justify-content: center;
 
-    .title{
+    .title {
         font-size: 2.8rem;
         font-weight: bolder;
         color: $white;
     }
 
-    .countdown{
+    .countdown {
         width: 60vw;
         justify-content: space-around;
         display: flex;
 
-        .box{
+        .box {
             width: 20%;
             height: 8vh;
             padding: 20px;
@@ -207,13 +211,13 @@ section{
             display: flex;
             justify-content: center;
 
-            .num{
+            .num {
                 font-size: 3rem;
                 margin-right: 1rem;
                 color: $white;
             }
 
-            .text{
+            .text {
                 font-size: 2rem;
                 font-weight: 500;
                 color: $white;
@@ -222,7 +226,7 @@ section{
     }
 }
 
-.about{
+.about {
     background-color: $yellow;
     display: flex;
     align-items: center;
@@ -230,19 +234,19 @@ section{
     gap: 2rem;
     margin-top: 5rem;
 
-    .video-container{
+    .video-container {
         flex: 1 1 42rem;
 
-        video{
+        video {
             border-radius: 1rem;
             width: 100%;
         }
 
-        .controls{
+        .controls {
             text-align: center;
             padding: 2rem 0;
 
-            span{
+            span {
                 display: inline-block;
                 height: 2rem;
                 width: 2rem;
@@ -251,29 +255,31 @@ section{
                 cursor: pointer;
                 margin: .7rem;
 
-                &:hover{
+                &:hover {
                     background: $yellow;
                 }
             }
         }
-        
+
     }
-    .content{
+
+    .content {
         flex: 1 1 42rem;
         margin-top: 5rem;
 
-        span{
+        span {
             color: $blue;
             font-weight: 800;
             font-size: 2rem;
         }
 
-        h3{
+        h3 {
             color: $white;
             font-size: 4rem;
             margin-top: .5rem;
         }
-        p{
+
+        p {
             padding: 1rem 0;
             font-size: 1.4rem;
             color: $white;
@@ -282,87 +288,106 @@ section{
     }
 }
 
-.event .box-container{
+.detail_about {
+    width: 80%;
+    height: 100vh;
+    margin-top: 100px;
+    justify-content: center;
+
+    h3 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.event .box-container {
     @include grid(27rem);
 
-    .box{
+    .box {
         border-radius: 1rem;
         border: .2rem solid $white;
         overflow: hidden;
         background: $white;
     }
-        &:hover img{
-            transform: scale(1.1);
-        }
 
-    .image{
+    &:hover img {
+        transform: scale(1.1);
+    }
+
+    .image {
         height: 25rem;
         overflow: hidden;
         width: 100%;
 
-        img{
+        img {
             height: 100%;
             width: 100%;
             object-fit: cover;
         }
     }
 
-    .content{
+    .content {
         padding: 1rem;
         border-top: .2rem solid $white;
         text-align: center;
 
-        h3{
+        h3 {
             font-size: 2rem;
             color: $yellow;
         }
-        p{
+
+        p {
             padding: 1rem 0;
             font-size: 1.4rem;
             color: $yellow;
             line-height: 2;
         }
-        a{
+
+        a {
             font-size: 1.7rem;
             color: $yellow;
 
-            &:hover i{
+            &:hover i {
                 padding-left: 1rem;
             }
-            i{
+
+            i {
                 padding-right: .5rem;
             }
         }
     }
 }
 
-.venue .box-container{
+.venue .box-container {
     @include grid(32rem);
 
-    .box{
+    .box {
         background: $bg-color;
         border-radius: 1rem;
         padding: 3rem;
         text-align: center;
         border: .2rem solid $yellow;
 
-        &:hover{
+        &:hover {
             border: $border;
         }
 
-        img{
+        img {
             width: 280px;
             height: 25vh;
             border-radius: 1rem;
             margin-bottom: 1rem;
         }
 
-        h3{
+        h3 {
             font-size: 2rem;
             color: $white;
         }
 
-        p{
+        p {
             padding: 1rem 0;
             font-size: 1.4rem;
             color: $light-color;
@@ -371,26 +396,26 @@ section{
     }
 }
 
-.lineup .box-container{
+.lineup .box-container {
     columns: 3 25rem;
     column-gap: 1.5rem;
 
-    .box{
+    .box {
         margin-bottom: 1rem;
         break-inside: avoid;
 
-        img{
+        img {
             width: 100%;
             border-radius: 1rem;
             margin-bottom: 1rem;
         }
 
-        span{
+        span {
             font-size: 1.4rem;
             color: $light-color;
         }
 
-        h3{
+        h3 {
             margin-top: .5rem;
             font-size: 2rem;
             color: $white;
@@ -398,67 +423,67 @@ section{
     }
 }
 
-.blogs .box-container{
+.blogs .box-container {
     @include grid(32rem);
 
-    .box{
+    .box {
         border-radius: 1rem;
         background: $bg-color;
         overflow: hidden;
 
-        &:hover{
-            .image img{
+        &:hover {
+            .image img {
                 transform: scale(1.1);
             }
         }
 
-        .image{
+        .image {
             height: 25rem;
             overflow: hidden;
             width: 100%;
 
-            img{
-               height: 100%;
-               width: 100%;
-               object-fit: cover; 
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
             }
         }
 
-        .content{
+        .content {
             padding: 2rem;
 
-            .link{
+            .link {
                 font-size: 2rem;
                 color: $white;
 
-                &:hover{
+                &:hover {
                     color: $blue;
                 }
             }
 
-            p{
+            p {
                 padding: 1rem 0;
                 font-size: 1.4rem;
                 color: $light-color;
                 line-height: 2;
             }
 
-            .icon{
+            .icon {
                 padding-top: 1rem;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
 
-                a{
+                a {
                     font-size: 1.4rem;
                     margin-right: 2px;
                     color: $light-color;
 
-                    &:hover{
+                    &:hover {
                         color: $blue;
                     }
 
-                    i{
+                    i {
                         padding-right: .5rem;
                         color: $blue;
                     }
@@ -469,109 +494,112 @@ section{
     }
 }
 
-.tiket .box-container{
+.tiket .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
 }
 
-.tiket .box-container .box{
+.tiket .box-container .box {
     padding: 2rem 0;
     background: #222;
     border-radius: 2rem;
     text-align: center;
 }
 
-.tiket .box-container .box:hover{
+.tiket .box-container .box:hover {
     transform: scale(1.03);
 }
 
-.tiket .box-container .box .title{
+.tiket .box-container .box .title {
     background: $yellow;
     color: $white;
     padding: 1.5rem 0;
     font-size: 2rem;
 }
-.tiket .box-container .box .price{
+
+.tiket .box-container .box .price {
     color: $white;
-    padding-top: 2rem ;
+    padding-top: 2rem;
     font-size: 2rem;
 }
 
-.tiket .box-container .box ul{
+.tiket .box-container .box ul {
     list-style-type: none;
     padding: 1rem 0;
 }
 
-.tiket .box-container .box ul li{
+.tiket .box-container .box ul li {
     font-size: 1.5rem;
     color: #eee;
     padding: 1rem 0;
 }
-.tiket .box-container .box ul li i{
-   color: $white;
-   padding-right: .5rem; 
+
+.tiket .box-container .box ul li i {
+    color: $white;
+    padding-right: .5rem;
 }
-.tiket .box-container .box .btn{
+
+.tiket .box-container .box .btn {
     margin-bottom: 0;
 }
 
-.banner{
-    background: linear-gradient($black-bg,$black-bg), url(../images/BCWF_SLIDEPOST_REV1_01052023-01.jpg) no-repeat;
+.banner {
+    background: linear-gradient($black-bg, $black-bg), url(../images/BCWF_SLIDEPOST_REV1_01052023-01.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     padding: 3rem 2rem;
     background-attachment: fixed;
     text-align-last: center;
 
-    .content{
-        
-        span{
+    .content {
+
+        span {
             font-size: 2rem;
             color: $blue;
         }
 
-        h3{
+        h3 {
             font-size: 4rem;
             color: $white;
             margin-top: 1rem;
         }
-        
+
     }
 }
 
-.footer{
-    .box-container{
+.footer {
+    .box-container {
         @include grid(25rem);
 
-        .box{
+        .box {
             padding: 1rem 0;
 
-            .logo{
+            .logo {
                 padding-bottom: 1rem;
             }
 
-            h3{
+            h3 {
                 font-size: 2.2rem;
                 color: $white;
             }
 
-            p{
+            p {
                 font-size: 1.4rem;
                 color: $white;
                 padding: 1rem 0;
                 line-height: 2;
-    
-                i{
+
+                i {
                     padding-right: .5rem;
                     color: $yellow;
                 }
-            } 
-            
-            .share{
+            }
+
+            .share {
                 padding-top: 1rem;
-    
-                a{
+
+                a {
                     height: 4.5rem;
                     width: 4.5rem;
                     line-height: 4rem;
@@ -581,85 +609,90 @@ section{
                     color: $white;
                     margin-right: .5rem;
                     text-align: center;
-    
-                    &:hover{
+
+                    &:hover {
                         background: $white;
                         color: $blue;
                     }
                 }
             }
 
-            .links{
+            .links {
                 font-size: 1.4rem;
                 color: $white;
                 padding: 1rem 0;
                 display: block;
 
-                &:hover{
+                &:hover {
                     color: $yellow;
-                    i{
+
+                    i {
                         padding-right: 2rem;
                     }
                 }
-                i{
+
+                i {
                     padding-right: .5rem;
                     color: $white;
                 }
             }
 
-            iframe{
+            iframe {
                 height: 40vh;
             }
         }
     }
 }
 
-.credit{
+.credit {
     background: $yellow;
     text-align: center;
     font-size: 2rem;
     padding: 2rem 1rem;
     color: $white;
 
-    span{
+    span {
         color: $blue;
     }
 }
 
 
 
-@media (max-width:991px){
-    html{
+@media (max-width:991px) {
+    html {
         font-size: 55%;
     }
 
-    .header{
+    .header {
         padding: 1.5rem 2rem;
     }
-    section{
+
+    section {
         padding: 3rem 2rem;
     }
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-    #menu-btn{
-        
+    #menu-btn {
+
         display: inline-block;
     }
 
-    .header{
-        .navbar{
+    .header {
+        .navbar {
             position: absolute;
-            top: 99%; left: 0; right: 0;
+            top: 99%;
+            left: 0;
+            right: 0;
             background-color: $bg-color;
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 
-            &.active{ 
+            &.active {
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
             }
 
-            a{
+            a {
                 margin: 2rem;
                 font-size: 2rem;
                 display: block;
@@ -667,31 +700,31 @@ section{
         }
     }
 
-    .home{
+    .home {
         margin-top: 10rem;
 
-        .content{
-            span{
+        .content {
+            span {
                 font-size: 8vw;
             }
 
-            h3{
+            h3 {
                 font-size: 9vw;
             }
         }
     }
 }
 
-@media (max-width:450px){
-    html{
+@media (max-width:450px) {
+    html {
         font-size: 50%;
     }
 
-    .about .content h3{
+    .about .content h3 {
         font-size: 3.5rem;
     }
 
-    .banner .content h3{
+    .banner .content h3 {
         font-size: 2.7rem;
     }
 }
