@@ -15,16 +15,16 @@
 
 <body>
     <header class="header">
-        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="menu-btn" class="fas fa-bars" onclick="toggleMenu()"></div>
 
         <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo">BCWF 2023</a>
 
-        <nav data-aos="zoom-in-left" data-aos-delay="300" class="navbar">
-            <a data-aos="zoom-in-left" data-aos-delay="450" href="#home">Home</a>
-            <a data-aos="zoom-in-left" data-aos-delay="600" href="#about">About</a>
-            <a data-aos="zoom-in-left" data-aos-delay="750" href="#event">Event</a>
-            <a data-aos="zoom-in-left" data-aos-delay="900" href="#venue">venue</a>
-            <a data-aos="zoom-in-left" data-aos-delay="1050" href="#lineup">lineup</a>
+        <nav data-aos="zoom-in-left" data-aos-delay="300" class="navbar" onclick="closeMenu()">
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="#home" onclick="closeMenu()">Home</a>
+            <a data-aos="zoom-in-left" data-aos-delay="1050" href="#lineup" onclick="closeMenu()">lineup</a>
+            <a data-aos="zoom-in-left" data-aos-delay="750" href="#event" onclick="closeMenu()">Event</a>
+            <a data-aos="zoom-in-left" data-aos-delay="900" href="#venue" onclick="closeMenu()">venue</a>
+            <a data-aos="zoom-in-left" data-aos-delay="600" href="#about" onclick="closeMenu()">About</a>
         </nav>
 
         <a data-aos="zoom-in-left" data-aos-delay="1350" href="#book-form" class="btn">Get-Tiket</a>

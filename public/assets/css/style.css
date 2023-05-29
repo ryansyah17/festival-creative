@@ -78,17 +78,21 @@ section {
   justify-content: space-between;
   padding: 1.5rem 9%;
 }
+.header .navbar.active {
+  display: flex;
+  background-color: #1c9dcc;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .header .navbar a {
   font-size: 1.7rem;
   color: #ffffff;
   display: inline-block;
-  margin: 0 1rem;
+  margin: 0.5rem 1rem;
+  transition: color 0.3s ease-in-out;
 }
 .header .navbar a:hover {
   color: #29d9d5;
-}
-.header .btn {
-  margin-top: 0;
 }
 
 .logo {
@@ -170,7 +174,6 @@ section {
   width: 20%;
   height: 8vh;
   padding: 20px;
-  background-color: #1c9dcc;
   border-radius: 2rem;
   align-items: center;
   display: flex;
@@ -188,7 +191,9 @@ section {
 }
 
 .about {
-  background-color: #f6b418;
+  background-image: url(../images/blob-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -252,6 +257,12 @@ section {
   font-size: 1.5rem;
 }
 
+.event {
+  background-image: url(../images/blob-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .event .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -265,17 +276,6 @@ section {
 }
 .event .box-container:hover img {
   transform: scale(1.1);
-}
-.event .box-container .image {
-  height: 25rem;
-  overflow: hidden;
-  width: 100%;
-}
-.event .box-container .image img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .event .box-container .content {
   padding: 1rem;
@@ -303,17 +303,23 @@ section {
   padding-right: 0.5rem;
 }
 
+.venue {
+  background-image: url(../images/blob-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .venue .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
   gap: 1.5rem;
 }
 .venue .box-container .box {
-  background: #222;
+  background: #ffffff;
   border-radius: 1rem;
   padding: 3rem;
   text-align: center;
-  border: 0.2rem solid #f6b418;
+  border: 0.2rem solid #000;
 }
 .venue .box-container .box:hover {
   border: 0.2rem solid #1c9dcc;
@@ -326,13 +332,29 @@ section {
 }
 .venue .box-container .box h3 {
   font-size: 2rem;
-  color: #ffffff;
+  color: #000;
 }
 .venue .box-container .box p {
   padding: 1rem 0;
   font-size: 1.4rem;
-  color: #aaa;
+  color: #111;
   line-height: 2;
+}
+.venue .box-container .box a {
+  font-size: 1.5rem;
+  color: #f6b418;
+}
+.venue .box-container .box a:hover i {
+  padding-left: 1rem;
+}
+.venue .box-container .box a i {
+  padding-right: 0.5rem;
+}
+
+.lineup {
+  background-image: url(../images/blob-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .lineup .box-container {
@@ -359,6 +381,12 @@ section {
   margin-top: 0.5rem;
   font-size: 2rem;
   color: #ffffff;
+}
+
+.blogs {
+  background-image: url(../images/blob-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .blogs .box-container {
@@ -418,6 +446,12 @@ section {
 .blogs .box-container .box .content .icon a i {
   padding-right: 0.5rem;
   color: #1c9dcc;
+}
+
+.tiket {
+  background-image: url(../images/blob-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .tiket .box-container {
@@ -489,6 +523,11 @@ section {
   margin-top: 1rem;
 }
 
+.footer {
+  background-image: url(../images/blob-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .footer .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));

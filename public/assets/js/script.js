@@ -1,7 +1,19 @@
-let navbar = document.querySelector('.header .navbar');
 
-document.querySelector('#menu-btn').onclick = () => {
-    navbar.classList.toggle('active');
+
+function toggleMenu() {
+  var menuBtn = document.getElementById('menu-btn');
+  var navbar = document.querySelector('.navbar');
+
+  menuBtn.classList.toggle('active');
+  navbar.classList.toggle('active');
+}
+
+function closeMenu() {
+  var menuBtn = document.getElementById('menu-btn');
+  var navbar = document.querySelector('.navbar');
+
+  menuBtn.classList.remove('active');
+  navbar.classList.remove('active');
 }
 
 document.querySelectorAll('.about .video-container .controls .control-btn').forEach(btn =>{

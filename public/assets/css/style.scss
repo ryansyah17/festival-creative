@@ -90,6 +90,34 @@ section {
 
 }
 
+// .header {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     z-index: 1000;
+//     background: $yellow;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding: 1.5rem 9%;
+
+//     .navbar a {
+//         font-size: 1.7rem;
+//         color: $white;
+//         display: inline-block;
+//         margin: 0 1rem;
+
+//         &:hover {
+//             color: #29d9d5;
+//         }
+//     }
+
+//     .btn {
+//         margin-top: 0;
+//     }
+// }
+
 .header {
     position: fixed;
     top: 0;
@@ -102,21 +130,26 @@ section {
     justify-content: space-between;
     padding: 1.5rem 9%;
 
+  
+    .navbar.active {
+      display: flex;
+      background-color: #1c9dcc;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
     .navbar a {
-        font-size: 1.7rem;
-        color: $white;
-        display: inline-block;
-        margin: 0 1rem;
-
-        &:hover {
-            color: #29d9d5;
-        }
+      font-size: 1.7rem;
+      color: $white;
+      display: inline-block;
+      margin: 0.5rem 1rem;
+      transition: color 0.3s ease-in-out;
+  
+      &:hover {
+        color: #29d9d5;
+      }
     }
-
-    .btn {
-        margin-top: 0;
-    }
-}
+  }
 
 
 
@@ -205,7 +238,7 @@ section {
             width: 20%;
             height: 8vh;
             padding: 20px;
-            background-color: $blue;
+            // background-color: $blue;
             border-radius: 2rem;
             align-items: center;
             display: flex;
@@ -227,7 +260,10 @@ section {
 }
 
 .about {
-    background-color: $yellow;
+    // background-color: $yellow;
+    background-image: url(../images/blob-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -303,6 +339,11 @@ section {
     }
 }
 
+.event{
+    background-image: url(../images/blob-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .event .box-container {
     @include grid(27rem);
 
@@ -317,17 +358,17 @@ section {
         transform: scale(1.1);
     }
 
-    .image {
-        height: 25rem;
-        overflow: hidden;
-        width: 100%;
+    // .image {
+    //     height: 25rem;
+    //     overflow: hidden;
+    //     width: 100%;
 
-        img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-    }
+    //     img {
+    //         height: 100%;
+    //         width: 100%;
+    //         object-fit: cover;
+    //     }
+    // }
 
     .content {
         padding: 1rem;
@@ -361,15 +402,21 @@ section {
     }
 }
 
+.venue{
+    background-image: url(../images/blob-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .venue .box-container {
     @include grid(32rem);
 
     .box {
-        background: $bg-color;
+        background: $white;
         border-radius: 1rem;
         padding: 3rem;
         text-align: center;
-        border: .2rem solid $yellow;
+        border: .2rem solid #000;
 
         &:hover {
             border: $border;
@@ -384,16 +431,34 @@ section {
 
         h3 {
             font-size: 2rem;
-            color: $white;
+            color: #000;
         }
 
         p {
             padding: 1rem 0;
             font-size: 1.4rem;
-            color: $light-color;
+            color: #111;
             line-height: 2;
         }
+        a {
+            font-size: 1.5rem;
+            color: $yellow;
+
+            &:hover i {
+                padding-left: 1rem;
+            }
+
+            i {
+                padding-right: .5rem;
+            }
+        }
     }
+}
+
+.lineup{
+    background-image: url(../images/blob-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .lineup .box-container {
@@ -421,6 +486,12 @@ section {
             color: $white;
         }
     }
+}
+
+.blogs{
+    background-image: url(../images/blob-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .blogs .box-container {
@@ -492,6 +563,12 @@ section {
 
         }
     }
+}
+
+.tiket{
+    background-image: url(../images/blob-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tiket .box-container {
@@ -569,6 +646,9 @@ section {
 }
 
 .footer {
+    background-image: url(../images/blob-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     .box-container {
         @include grid(25rem);
 
