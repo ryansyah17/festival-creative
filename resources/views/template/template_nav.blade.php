@@ -16,7 +16,6 @@
 <body>
     <header class="header">
         <a href="/" data-aos="zoom-in-left"><i class="fas fa-angle-left"> BACK</i></a>
-
         <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo">BCWF 2023</a>
         <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"></a>
     </header>
@@ -31,7 +30,6 @@
             offset: 150,
         });
     </script>
-
 </body>
 
 </html>
