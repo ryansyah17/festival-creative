@@ -20,4 +20,10 @@ Route::get('/detail_about', function () {
     return view('detail_about');
 });
 
+Route::get('/detail_lineup', function () {
+    return view('detail_lineup');
+});
+
+
+
 

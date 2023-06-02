@@ -1,35 +1,4 @@
-<!-- <!DOCTYPE html>
-<html lang="en"> -->
 
-<!-- <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="icon" type="image/png" href="./assets/images/bcwf2023.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <script src="assets/js/script.js" defer></script>
-  <title>Home | BCWF2023</title>
-</head> -->
-
-<!-- <body> -->
-<!-- <header class="header">
-    <div id="menu-btn" class="fas fa-bars"></div>
-
-    <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo">BCWF 2023</a>
-
-    <nav data-aos="zoom-in-left" data-aos-delay="300" class="navbar">
-      <a data-aos="zoom-in-left" data-aos-delay="450" href="#home">Home</a>
-      <a data-aos="zoom-in-left" data-aos-delay="600" href="#about">About</a>
-      <a data-aos="zoom-in-left" data-aos-delay="750" href="#event">Event</a>
-      <a data-aos="zoom-in-left" data-aos-delay="900" href="#venue">venue</a>
-      <a data-aos="zoom-in-left" data-aos-delay="1050" href="#lineup">lineup</a>
-      <a data-aos="zoom-in-left" data-aos-delay="1200" href="#tiket">tiket</a>
-    </nav>
-
-    <a data-aos="zoom-in-left" data-aos-delay="1350" href="#book-form" class="btn">Get-Tiket</a>
-  </header> -->
 @extends('template.template')
 @section('index')
   <section class="home" id="home">
@@ -38,7 +7,7 @@
       <h3 data-aos="fade-up" data-aos-delay="300">
         Bukittinggi Creative Week Festival
       </h3>
-      <p data-aos="fade-up" data-aos-delay="450">August 15 to 20, 2023</p>
+      <p data-aos="fade-up" data-aos-delay="450">August 16 to 20, 2023</p>
       <a  href="https://www.instagram.com/bukittinggicreativeweekfest/" class="btn">Get-Ticket</a>
     </div>
   </section>
@@ -47,13 +16,14 @@
     <span class="title" data-aos="zoom-in-right" data-aos-delay="150">Countdown To BCWF2023</span>
     
   </section>
+
   <section class="lineup" id="lineup">
     <div class="heading">
       <span>Our lineup</span>
       <h1>Interest LineUp</h1>
     </div>
 
-    <div class="box-container">
+    {{-- <div class="box-container">
       <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
         <img src="assets/images/logo2.jpg" alt="" />
         <span>Guest Star</span>
@@ -119,6 +89,84 @@
         <span>Mundane Thoughts On Wall</span>
         <h3>Art Exhibition</h3>
       </div>
+    </div> --}}
+    <div data-aos="zoom-in-up" class="swiper-container home-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-image"><img src="assets/images/logo2.jpg" alt=""></div>
+            <div class="category"> Rocky Gerung </div>
+            <div class="heading"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, totam?</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-image"><img src="assets/images/logo2.jpg" alt=""></div>
+            <div class="category"> Illustration </div>
+            <div class="heading"> A heading that must span over two lines</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-image"><img src="assets/images/logo2.jpg" alt=""></div>
+            <div class="category"> Illustration </div>
+            <div class="heading"> A heading that must span over two lines</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-image"><img src="assets/images/logo2.jpg" alt=""></div>
+            <div class="category"> Illustration </div>
+            <div class="heading"> A heading that must span over two lines</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-image"><img src="assets/images/logo2.jpg" alt=""></div>
+            <div class="category"> Illustration </div>
+            <div class="heading"> A heading that must span over two lines</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-image"><img src="assets/images/logo2.jpg" alt=""></div>
+            <div class="category"> Illustration </div>
+            <div class="heading"> A heading that must span over two lines</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-image"><img src="assets/images/logo2.jpg" alt=""></div>
+            <div class="category"> Illustration </div>
+            <div class="heading"> A heading that must span over two lines</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-image"><img src="assets/images/logo2.jpg" alt=""></div>
+            <div class="category"> Illustration </div>
+            <div class="heading"> A heading that must span over two lines</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-image"><img src="assets/images/logo2.jpg" alt=""></div>
+            <div class="category"> Illustration </div>
+            <div class="heading"> A heading that must span over two lines</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-image"><img src="assets/images/logo2.jpg" alt=""></div>
+            <div class="category"> Illustration </div>
+            <div class="heading"> A heading that must span over two lines</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+
+      <a href="/detail_lineup" class="btn">View All</a>
     </div>
   </section>
 
@@ -267,7 +315,7 @@
   </section>
 
   <section class="about" id="about">
-    <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+    {{-- <div class="video-container" data-aos="fade-right" data-aos-delay="300">
       <video src="assets/images/a futuristic cyberpunk city, in the style of 3D, octane render, 8k, ray-tracing, blender, hyper-detailed (1682913333960).mp4" muted autoplay loop class="video"></video>
       <div class="controls">
         <span class="control-btn" data-src="assets/images/a futuristic cyberpunk city, in the style of 3D, octane render, 8k, ray-tracing, blender, hyper-detailed (1682913333960).mp4"></span>
@@ -288,7 +336,25 @@
         kerja-kerja kreatif yang berbasis di Bukittinggi...
       </p>
       <a href="/detail_about" class="btn">read more</a>
+    </div> --}}
+<div class="row">
+    <div class="image">
+      <img src="assets/images/logo2.jpg" alt="">
     </div>
+
+    <div class="content">
+      <h3>BCWF Summary</h3>
+      <p>Bukittinggi Creative Week Festival 2023 adalah sebuah festival yang
+        akan diadakan pada 16-20 Agustus 2023 di Bukittinggi Sumatera Barat.
+        Festival ini diciptakan untuk merayakan dan merepresentasi eksistensi
+        pekerja seni dan pekerja industri kreatif di Bukittinggi. BCWF 2023
+        digagas oleh CV. ArtlessSociety, sebuah firma non-pemerintahan yang
+        bergerak di bidang literasi, pengembangan kesenian, kebudayaan dan
+        kerja-kerja kreatif yang berbasis di Bukittinggi...
+      </p>
+      <a href="/detail_about" class="btn">read more</a>
+    </div>
+  </div>
   </section>
 
   <section class="tiket" id="tiket">

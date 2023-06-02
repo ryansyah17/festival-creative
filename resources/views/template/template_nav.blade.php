@@ -22,6 +22,7 @@
     </header>
 
     @yield('detail_about')
+    @yield('detail_lineup')
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
