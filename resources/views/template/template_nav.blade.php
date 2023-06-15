@@ -30,6 +30,7 @@
             offset: 150,
         });
     </script>
+    <script src="assets/js/script.js" defer></script>
 </body>
 
 </html>
